@@ -22,7 +22,7 @@ using google::protobuf::io::CodedOutputStream;
 #include <sofa/pbrpc/lz4.h>
 
 #if HAVE_SNAPPY
-#include <snappy.h>
+#include <snappy/snappy.h>
 #endif
 
 namespace sofa {
